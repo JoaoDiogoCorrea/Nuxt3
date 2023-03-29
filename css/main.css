@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+    @apply text-2xl font-normal text-dark-sea-green
+  }
+
+input[type=text]  {
+    @apply font-light text-dark-sea-green bg-charcoal rounded p-1 outline-0
+}
+
+input[type=password]  {
+    @apply font-light text-dark-sea-green bg-charcoal rounded-l p-1 outline-0
+}
+
+button {
+    @apply font-normal text-center  text-dark-sea-green rounded p-1 bg-charcoal  cursor-pointer outline-0
+}
+
+input[type=email]  {
+    @apply font-light text-dark-sea-green bg-charcoal rounded p-1  outline-0
+}
+
+p {
+    @apply text-dark-sea-green p-3 font-light text-base
+}
+
+html {
+    @apply bg-dark-slate-gray
+}
+
+table {
+    @apply bg-dark-sea-green w-full rounded
+}
+
+th, td {
+    @apply w-24 text-center text-charcoal font-light
+}
+
+.alert {
+    @apply fixed bg-ash-gray rounded top-2 left-1/2 -translate-x-1/2
+}
+
+.avatar {
+    @apply w-14 h-14 rounded-full
+}
